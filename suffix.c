@@ -37,6 +37,8 @@ int main() {
   printf("c[0] is sugar for *(c + 0), which returns 'h'");
   printf("c[1]    %c\n", c[1]);
 
+  printf("If you're still confused, please checkout the following link about pointers and arrays: https://www.eskimo.com/~scs/cclass/notes/sx10e.html");
+
   //Why is each pointer treated like an array? 
   //cj3kim, printf interprets its arguments entirely according to the format string you give it (because it simply doesn't have any other way to know what they are
   //credits to dav1d
